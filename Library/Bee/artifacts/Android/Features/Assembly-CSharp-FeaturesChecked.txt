@@ -1,0 +1,3 @@
+UnityEngine.Network
+UnityEngine.Application::get_internetReachability
+UnityEngine.Input::get_location

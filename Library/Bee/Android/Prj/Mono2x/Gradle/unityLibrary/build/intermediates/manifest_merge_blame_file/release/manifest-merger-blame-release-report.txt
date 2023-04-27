@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1.0.2" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+12-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+13
+14    <uses-feature android:glEsVersion="0x00030000" />
+14-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-52
+14-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-49
+15    <uses-feature
+15-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-91
+16        android:name="android.hardware.vulkan.version"
+16-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-63
+17        android:required="false" />
+17-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:64-88
+18
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-77
+19-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:20-74
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-77
+20-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:20-74
+21
+22    <uses-feature
+22-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-89
+23        android:name="android.hardware.location.gps"
+23-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-61
+24        android:required="false" />
+24-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:62-86
+25    <uses-feature
+25-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-85
+26        android:name="android.hardware.location"
+26-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-57
+27        android:required="false" />
+27-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:58-82
+28    <uses-feature
+28-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-88
+29        android:name="android.hardware.touchscreen"
+29-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:17-60
+30        android:required="false" />
+30-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:61-85
+31    <uses-feature
+31-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-99
+32        android:name="android.hardware.touchscreen.multitouch"
+32-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-71
+33        android:required="false" />
+33-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:72-96
+34    <uses-feature
+34-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-108
+35        android:name="android.hardware.touchscreen.multitouch.distinct"
+35-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:17-80
+36        android:required="false" />
+36-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:81-105
+37
+38    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+38-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-75
+38-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:20-72
+39
+40    <application android:extractNativeLibs="true" >
+40-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-26:17
+40-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:16-48
+41        <activity
+41-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:5-12:16
+42            android:name="com.unity3d.player.UnityPlayerActivity"
+42-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+43            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+43-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:180-361
+44            android:hardwareAccelerated="false"
+44-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:397-432
+45            android:launchMode="singleTask"
+45-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:148-179
+46            android:resizeableActivity="false"
+46-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:362-396
+47            android:screenOrientation="fullUser"
+47-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:111-147
+48            android:theme="@style/UnityThemeSelector" >
+48-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:69-110
+49            <intent-filter>
+49-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:7-9:23
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-61
+50-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-58
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-69
+52-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-66
+53            </intent-filter>
+54
+55            <meta-data
+55-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+56                android:name="unityplayer.UnityActivity"
+56-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+57                android:value="true" />
+57-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+58            <meta-data
+58-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+59                android:name="android.notch_support"
+59-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+60                android:value="true" />
+60-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+61        </activity>
+62
+63        <meta-data
+63-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-69
+64            android:name="unity.splash-mode"
+64-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+65            android:value="0" />
+65-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:49-66
+66        <meta-data
+66-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-74
+67            android:name="unity.splash-enable"
+67-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-50
+68            android:value="True" />
+68-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:51-71
+69        <meta-data
+69-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-78
+70            android:name="unity.launch-fullscreen"
+70-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-54
+71            android:value="True" />
+71-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:55-75
+72        <meta-data
+72-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+73            android:name="unity.allow-resizable-window"
+73-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-59
+74            android:value="False" />
+74-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:60-81
+75        <meta-data
+75-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-81
+76            android:name="notch.config"
+76-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-43
+77            android:value="portrait|landscape" />
+77-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:44-78
+78        <meta-data
+78-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-84
+79            android:name="unity.auto-report-fully-drawn"
+79-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-60
+80            android:value="true" />
+80-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:61-81
+81
+82        <receiver
+82-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-113
+83            android:name="com.unity.androidnotifications.UnityNotificationManager"
+83-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:15-85
+84            android:exported="false" />
+84-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:86-110
+85        <receiver
+85-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-24:16
+86            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+86-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:15-99
+87            android:enabled="false"
+87-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:100-123
+88            android:exported="false" >
+88-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:124-148
+89            <intent-filter>
+89-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:7-23:23
+90                <action android:name="android.intent.action.BOOT_COMPLETED" />
+90-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:9-71
+90-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-68
+91            </intent-filter>
+92        </receiver>
+93
+94        <meta-data
+94-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:5-99
+95            android:name="com.unity.androidnotifications.exact_scheduling"
+95-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:16-78
+96            android:value="0" />
+96-->C:\Users\user\Geoposition mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:79-96
+97    </application>
+98
+99</manifest>
